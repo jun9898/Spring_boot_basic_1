@@ -33,6 +33,7 @@ dependencies {
 	implementation 'com.dukescript.api:junit-browser-runner:1.0'
 	implementation 'au.com.dius:pact-jvm-provider-junit:4.0.10'
 	implementation 'au.com.dius:pact-jvm-provider-spring:4.0.10'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
 
