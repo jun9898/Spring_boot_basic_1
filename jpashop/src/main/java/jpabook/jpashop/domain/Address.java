@@ -1,10 +1,12 @@
 package jpabook.jpashop.domain;
 
 import jakarta.persistence.Embeddable;
+import jakarta.persistence.Table;
 import lombok.Getter;
 
 @Embeddable
 @Getter
+@Table
 public class Address {
     private String city;
     private String street;
